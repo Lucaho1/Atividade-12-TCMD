@@ -1,11 +1,11 @@
 def main():
     x = int()
     y = int()
-    x = int(input())
-    y = int(input())
-    z = int()
-    z = x + y
-    print(z)
+    x = int(input("Insira o valor de x: "))
+    y = int(input("Insira o valor de y:"))
+    soma = int()
+    soma = x + y
+    print("O valor de x+y eh igual a: %d"%(soma))
 
 
 
